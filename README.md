@@ -44,7 +44,7 @@ Once the model is trained, it can be used to make predictions on new images. The
 * Adjust the model parameters in the cnn_cat_dog.py script as needed.
 3. Training:
 
-* Run the cnn_cat_dog.py script to train the model.
+* Run the convolutional_neural_network.py script to train the model.
 4. Making Predictions:
 
 * Use the provided code snippet in the script to make predictions on new images.
