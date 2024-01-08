@@ -7,8 +7,8 @@ This repository contains a Python script that implements a Convolutional Neural 
 
 ## Contents
 
-cnn_cat_dog.py: The Python script containing the CNN implementation.
-README.md: This file (you're reading it now!).
+* cnn_cat_dog.py: The Python script containing the CNN implementation.
+* README.md: This file (you're reading it now!).
 ## Model Architecture
 
 The CNN architecture consists of the following layers:
