@@ -13,49 +13,49 @@ This repository contains a Python script that implements a Convolutional Neural 
 
 The CNN architecture consists of the following layers:
 
-Convolutional layers with ReLU activation
-Max-pooling layers
-Flattening layer
-Fully connected layers
-Output layer with sigmoid activation
+* Convolutional layers with ReLU activation
+* Max-pooling layers
+* Flattening layer
+* Fully connected layers
+* Output layer with sigmoid activation
 ## Training
 
 The model is trained using the following steps:
 
-Compilation: The model is compiled using the Adam optimizer and binary crossentropy loss.
-Training: The model is trained on a training set of images for a specified number of epochs.
-Evaluation: The model's performance is evaluated on a test set of images.
+1. Compilation: The model is compiled using the Adam optimizer and binary crossentropy loss.
+2. Training: The model is trained on a training set of images for a specified number of epochs.
+3. Evaluation: The model's performance is evaluated on a test set of images.
 ## Making Predictions
 
 Once the model is trained, it can be used to make predictions on new images. The script includes a section for making predictions on a single image.
 
 ## Dependencies
 
-TensorFlow
-Keras
+* TensorFlow
+* Keras
 ## Instructions
 
-Dataset Preparation:
+1. Dataset Preparation:
 
-Organize your dataset into separate folders for training and testing.
-Within each folder, create subfolders named 'cat' and 'dog' for the respective images.
-Model Configuration:
+**Organize your dataset into separate folders for training and testing.
+**Within each folder, create subfolders named 'cat' and 'dog' for the respective images.
+2. Model Configuration:
 
-Adjust the model parameters in the cnn_cat_dog.py script as needed.
-Training:
+**Adjust the model parameters in the cnn_cat_dog.py script as needed.
+3. Training:
 
-Run the cnn_cat_dog.py script to train the model.
-Making Predictions:
+**Run the cnn_cat_dog.py script to train the model.
+4. Making Predictions:
 
-Use the provided code snippet in the script to make predictions on new images.
+**Use the provided code snippet in the script to make predictions on new images.
 ## Results
 
 The accuracy and loss of the model on the test set will be displayed during and after training.
 
 ## Additional Notes
 
-Consider adjusting the model architecture and hyperparameters to potentially improve performance.
-Explore different techniques for data augmentation to increase the size and variability of the training set.
+*Consider adjusting the model architecture and hyperparameters to potentially improve performance.
+*Explore different techniques for data augmentation to increase the size and variability of the training set.
 ## Visualizing the Convolutional Layers
 convolutional layer with feature maps 이미지새 창에서 열기
 stats.stackexchange.com
