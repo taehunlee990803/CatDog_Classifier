@@ -37,17 +37,17 @@ Once the model is trained, it can be used to make predictions on new images. The
 
 1. Dataset Preparation:
 
-*Organize your dataset into separate folders for training and testing.
-*Within each folder, create subfolders named 'cat' and 'dog' for the respective images.
+* Organize your dataset into separate folders for training and testing.
+* Within each folder, create subfolders named 'cat' and 'dog' for the respective images.
 2. Model Configuration:
 
-*Adjust the model parameters in the cnn_cat_dog.py script as needed.
+* Adjust the model parameters in the cnn_cat_dog.py script as needed.
 3. Training:
 
-*Run the cnn_cat_dog.py script to train the model.
+* Run the cnn_cat_dog.py script to train the model.
 4. Making Predictions:
 
-*Use the provided code snippet in the script to make predictions on new images.
+* Use the provided code snippet in the script to make predictions on new images.
 ## Results
 
 The accuracy and loss of the model on the test set will be displayed during and after training.
